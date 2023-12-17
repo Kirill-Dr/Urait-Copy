@@ -1,0 +1,53 @@
+.popular__title__container {
+  font-weight: bolder;
+  font-size: 0.9em;
+  width: 100%;
+  border-bottom: 1px solid #9d9d9d;
+  padding-bottom: 10px;
+}
+
+.popular__card__container {
+  display: flex;
+  margin-top: 15px;
+}
+
+.popular__avatar {
+  background-color: #02fdfe;
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.popular__author__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.up__text {
+  font-weight: bolder;
+  font-size: 1em;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
+}
+
+.down__text {
+  color: #565656;
+  font-size: 0.9em;
+}
+
+.popular__allAuthors__container {
+  color: #f08b01;
+  font-weight: bolder;
+  font-size: 1.1em;
+  margin-top: 30px;
+
+  &:hover {
+    color: #fbb03c;
+    cursor: pointer;
+  }
+}

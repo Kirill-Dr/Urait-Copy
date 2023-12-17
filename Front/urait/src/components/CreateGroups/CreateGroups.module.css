@@ -1,0 +1,48 @@
+.createGroups__main__container {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.createGroups__title__container {
+  font-size: 2.4em;
+  font-weight: bolder;
+  margin-top: 150px;
+  margin-bottom: 45px;
+}
+
+.createGroups__card__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createGroups__card__item {
+  border: 1px solid #9e9e9e;
+  border-radius: 5px;
+  width: 36.6vw;
+  padding: 30px 35px;
+  margin-bottom: 50px;
+}
+
+.createGroups__card__title {
+  font-weight: bolder;
+  font-size: 1.7em;
+  margin-bottom: 27px;
+}
+
+.createGroups__card__info {
+  font-size: 1.1em;
+  margin-bottom: 27px;
+}
+
+.createGroups__card__description {
+  font-size: 1.1em;
+}
+
+.createGroups__card__link {
+  color: #1c53a7;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,80 @@
+.group__header__container {
+  background-image: url("../../images/group-students-bg.jpg");
+  background-position: center;
+  height: 60vh;
+}
+
+.group__main__container {
+  width: 85vw;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.group__bread__container {
+  font-size: 1.05em;
+  color: #535353;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25vw;
+  font-weight: bolder;
+}
+
+.bread__link {
+  text-decoration: none;
+  color: #535353;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.group__bread__container img {
+  padding-top: 2px;
+}
+
+.group__title__container {
+  margin-top: 30px;
+  font-size: 3.5em;
+  font-weight: bolder;
+}
+
+.group__description__container {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+.group__button__container {
+  width: 28vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.button__groups {
+  border: none;
+  background-color: #f08b01;
+  border-radius: 5px;
+  height: 5vh;
+  color: white;
+  font-weight: bolder;
+  width: 10vw;
+
+  &:hover {
+    background-color: #fbb03c;
+    cursor: pointer;
+  }
+}
+
+.create__groups {
+  border: none;
+  background-color: transparent;
+  color: #f08b01;
+  width: 15vw;
+  font-weight: bolder;
+
+  &:hover {
+    color: #fbb03c;
+    cursor: pointer;
+  }
+}

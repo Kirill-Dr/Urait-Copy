@@ -1,0 +1,49 @@
+.newsMainContent__main__container {
+  background-color: #eeeeef;
+}
+
+.newsMainContent__container {
+  display: flex;
+  justify-content: space-between;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.newsMainContent__left__container {
+  width: 21.5vw;
+  height: max-content;
+}
+
+.newsMainContent__right__container {
+  width: 61.5vw;
+  height: 10vh;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.input-container input[type="date"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-container label {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  pointer-events: none;
+  transition: 0.2s ease-out all;
+  color: #888;
+}
+
+.input-container input[type="date"]:focus + label,
+.input-container input[type="date"]:valid + label {
+  top: -1rem;
+  font-size: 0.8rem;
+  color: #333;
+}

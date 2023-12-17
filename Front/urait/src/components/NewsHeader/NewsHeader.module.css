@@ -1,0 +1,27 @@
+.newsHeader__main__container {
+  background-color: #eeeeef;
+}
+
+.newsHeader__container {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.newsHeader__bread__container {
+  width: 18vw;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  padding-top: 25px;
+}
+
+.newsHeader__title__container {
+  font-size: 3em;
+  font-weight: bolder;
+  margin: 35px 0 30px;
+}
+
+.newsHeader__description__container {
+  font-size: 1.1em;
+  padding-bottom: 10px;
+}

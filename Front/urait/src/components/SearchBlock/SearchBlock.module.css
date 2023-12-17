@@ -1,0 +1,214 @@
+.searchBlock__container {
+  background-image: url("../../images/search-bg.jpg");
+  background-size: cover;
+  height: 60vh;
+  color: white;
+}
+
+.searchBlock__main__container {
+  width: 85vw;
+  margin: 0 auto;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.searchBlock__text {
+  font-size: 2.6em;
+}
+
+.searchBlock__info__container {
+  margin-top: 10px;
+  width: 58vw;
+  display: flex;
+  justify-content: flex-end;
+  color: #e9c53e;
+  font-size: 1.2em;
+}
+
+.searchBlock__info__main__container {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBlock__info__text {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.searchBlock__info__text:hover {
+  text-decoration: underline;
+  text-underline-offset: 12px;
+}
+
+.searchBlock__input__container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-top: 20px;
+  width: 58vw;
+  height: 10vh;
+  padding: 0 5px;
+}
+
+.searchBlock__input__button {
+  font-size: 1em;
+  color: #f08b02;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: white;
+  padding: 0 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.searchBlock__input__button img {
+  padding-bottom: 3px;
+}
+
+.searchBlock__dropdown__menu {
+  width: 7vw;
+  height: 12vh;
+  z-index: 1;
+  position: absolute;
+  background-color: white;
+  border-radius: 8px;
+  top: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchBlock__dropdown__menu button {
+  height: 6vh;
+  font-size: 1em;
+  padding-right: 15px;
+  border: none;
+  color: black;
+}
+
+.searchBlock__dropdown__menu button:hover {
+  background-color: #ffe2b6;
+  color: #ff9600;
+}
+
+.dropdown__button_up {
+  border-radius: 8px 8px 0 0;
+}
+
+.dropdown__button_down {
+  border-radius: 0 0 8px 8px;
+}
+
+.searchBlock__input__line {
+  background-color: black;
+  margin: 0 30px 0 10px;
+  height: 6vh;
+  width: 1px;
+}
+
+.searchBlock__input__block {
+  border: none;
+  height: 8vh;
+  font-size: 1.2em;
+  width: 50vw;
+}
+
+.searchBlock__input__block:focus {
+  outline: none;
+}
+
+.searchBlock__input__block:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.searchBlock__button {
+  width: 10vw;
+  height: 8vh;
+  border: none;
+  border-radius: 5px;
+  background-color: #f08b02;
+  color: white;
+  font-size: 1.5em;
+}
+
+.searchBlock__button:hover {
+  cursor: pointer;
+  background-color: #e89420;
+}
+
+.toggle__container {
+  width: 58.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBlock__handle__container {
+  margin-top: 30px;
+  width: 13vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.searchBlock__handle__container2 {
+  margin-top: 30px;
+  width: 16vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.smoothTransition {
+  transition: all 0.5s ease;
+}
+
+.searchBlock__handle__block {
+  height: 4vh;
+  width: 3.5vw;
+  border: none;
+  border-radius: 50px;
+  background-color: #c5c5c6;
+  position: relative;
+}
+
+.searchBlock__handle__block2 {
+  height: 4vh;
+  width: 3.5vw;
+  border: none;
+  border-radius: 50px;
+  background-color: #f08b02;
+  position: relative;
+}
+
+.searchBlock__handle__dot {
+  height: 3vh;
+  width: 3vh;
+  border-radius: 50px;
+  background-color: white;
+  position: absolute;
+  top: 4px;
+  left: 5px;
+}
+
+.searchBlock__handle__dot2 {
+  height: 3vh;
+  width: 3vh;
+  border-radius: 50px;
+  background-color: white;
+  position: absolute;
+  top: 4px;
+  left: 26px;
+}
+
+.searchBlock__handle__text {
+  font-size: 1.2em;
+}

@@ -1,0 +1,98 @@
+.main__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "a a b"
+    "c d e"
+    "f g h"
+    "i j .";
+  gap: 20px;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../images/2-bg.jpg");
+  background-position: center;
+  background-size: cover;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.card__container:hover .card__container__down {
+  background-color: transparent;
+  transition: 0.5s ease;
+}
+
+.card__container:hover .card__description {
+  color: transparent;
+  transition: 0.5s ease;
+}
+
+.card__container:hover .card__img {
+  color: white;
+  transition: 0.5s ease;
+}
+
+.card__title__container {
+  height: 25vh;
+}
+
+.dark__container {
+  background-color: rgba(0, 0, 0, 0.55);
+  height: 45vh;
+  padding: 15px;
+}
+
+.info__title {
+  background-color: #d3f4e1;
+  width: max-content;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-bottom: 8px;
+  font-size: 1.05em;
+}
+
+.title__text {
+  color: white;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.card__container__down {
+  background-color: #d3f4e1;
+  padding: 15px;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.5s ease;
+}
+
+.card__description {
+  font-size: 1.05em;
+  line-height: 1.2;
+  transition: 0.5s ease;
+}
+
+.card__desc__info {
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 16.5vw;
+}
+
+.card__img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s ease;
+}
+
+.card__desc {
+  padding-bottom: 3.5px;
+}

@@ -1,0 +1,28 @@
+.card__container {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.card__container_up {
+  margin-top: 3.4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__items {
+  height: 200px;
+}
+
+.card__items:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(240, 139, 1, 0.29);
+}
+
+.card__container_down {
+  margin: 2px 0 5px;
+  color: #bebebe;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+}

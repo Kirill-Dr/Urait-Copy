@@ -1,0 +1,99 @@
+.helpCards__out__container {
+  width: 100vw;
+  background-color: #f0f0f1;
+}
+
+.helpCards__container {
+  width: 85vw;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.bread__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7vw;
+  margin-bottom: 20px;
+}
+
+.bread__container span {
+  color: #5d5d5d;
+  font-size: 1.1em;
+}
+
+.bread__container img:hover {
+  cursor: pointer;
+}
+
+.helpCards__header__title {
+  font-size: 3em;
+}
+
+.helpCards__main__container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 28px 0;
+}
+
+.helpCards__card {
+  height: 45vh;
+  width: 26.5vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+}
+
+.helpCards__card__title {
+  font-size: 1.8em;
+  height: 5vh;
+  width: 90%;
+  padding-top: 20px;
+  color: #4b4b4c;
+  font-weight: bolder;
+}
+
+.helpCards__card__link {
+  height: 25vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.1em;
+  color: #1c53a7;
+  font-weight: bolder;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.helpCards__card__link span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.helpCards__card__services {
+  border-top: 1px solid #b9b9b9;
+  color: #f08b01;
+  padding: 10px;
+  width: 85%;
+  font-size: 1em;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}
+
+.helpCards__card__services:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.helpCards__card__services img {
+  margin-left: 10px;
+}

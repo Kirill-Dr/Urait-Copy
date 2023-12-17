@@ -1,0 +1,44 @@
+.questionsStudents__up__container {
+  margin: 150px 0;
+}
+
+.questionsStudents__main__container {
+  background-image: url("../../images/support-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.questionsStudents__container {
+  width: 43vw;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.questionsStudents__title__container {
+  font-weight: bolder;
+  font-size: 2.3em;
+}
+
+.questionsStudents__help__container {
+  margin-top: 35px;
+  font-weight: bolder;
+  font-size: 1.05em;
+}
+
+.questionsStudents__mail__container {
+  color: #5454d4;
+  margin-top: 15px;
+  font-size: 1.05em;
+}
+
+.questionsStudents__mail__container span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.questionsStudents__number__container {
+  font-size: 1.1em;
+  margin-top: 5px;
+}

@@ -1,0 +1,232 @@
+.webinars__container {
+  width: 85vw;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.webinars__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 110px;
+}
+
+.webinars__header__title {
+  font-size: 2em;
+  font-weight: bolder;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.webinars__header__underline {
+  height: 0.7vh;
+  background-color: #f08b01;
+  width: 4.3vw;
+}
+
+.webinars__header__link {
+  font-size: 1.1em;
+  color: #565656;
+}
+
+.webinars__header__link:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.webinars__card__container {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "a b"
+    "a c";
+  height: 55vh;
+  margin-top: 85px;
+}
+
+.webinars__card1 {
+  grid-area: a;
+  background-image: url("../../images/webinars-card1.svg");
+  background-size: cover;
+  background-color: rgb(77, 79, 82);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.webinars__card2 {
+  grid-area: b;
+  background-image: url("../../images/webinars-card2.svg");
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.webinars__card3 {
+  grid-area: c;
+  background-image: url("../../images/webinars-card3.svg");
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.webinars__card1__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.webinars__card1__title span {
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin: 20px 0 0 25px;
+}
+
+.webinars__card1__title span:hover {
+  cursor: pointer;
+  color: #f08b01;
+}
+
+.webinars__card1__title button {
+  border: none;
+  border-radius: 10px;
+  width: 5vw;
+  height: 3vh;
+  color: #f08b01;
+  background-color: #f7d7c5;
+  margin: 20px 0 0 25px;
+}
+
+.webinars__card1__title button:hover {
+  background-color: #f08b01;
+  color: white;
+  cursor: pointer;
+}
+
+.webinars__card1__downBlock {
+  font-size: 1.3em;
+  border-top: 1px solid white;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  cursor: pointer;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.webinars__card1__downBlock:hover {
+  background-color: #f08b01;
+}
+
+.downBlock__description {
+  display: flex;
+  width: 10vw;
+}
+
+.downBlock__description img {
+  padding: 3px 0 0 6px;
+}
+
+.webinars__card1__downBlock:hover .downBlock__description img {
+  margin-left: 10px;
+}
+
+.webinars__card2__title {
+  padding: 20px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.webinars__card2__main__title {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.webinars__card2__main__title:hover {
+  color: #f08b01;
+  cursor: pointer;
+}
+
+.webinars__card2__description {
+  color: #383838;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.webinars__card2__description:hover {
+  cursor: pointer;
+  color: #f08b01;
+}
+
+.webinars__card2__title button {
+  border: none;
+  border-radius: 10px;
+  width: 11vw;
+  height: 3vh;
+  color: #f08b01;
+  background-color: #f7d7c5;
+}
+
+.webinars__card2__title button:hover {
+  background-color: #f08b01;
+  color: white;
+  cursor: pointer;
+}
+
+.webinars__card2__downBlock {
+  font-size: 1.3em;
+  border-top: 1px solid white;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  cursor: pointer;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.webinars__card2__downBlock:hover {
+  background-color: #f08b01;
+  color: black;
+}
+
+.webinars__card2__downBlock:hover .downBlock__description img {
+  margin-left: 10px;
+}
+
+.webinars__card3__title {
+  padding: 20px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.webinars__card3__title button {
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 6vw;
+  height: 3vh;
+  color: #f08b01;
+  background-color: #f7d7c5;
+}
+
+.webinars__card3__title button:hover {
+  background-color: #f08b01;
+  color: white;
+  cursor: pointer;
+}
+
+.webinars__card__link {
+  margin-top: 50px;
+}

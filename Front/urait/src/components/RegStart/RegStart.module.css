@@ -1,0 +1,30 @@
+.regStart__container {
+  background-color: #f3f3f4;
+}
+
+.regStart__main__container {
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 40vh;
+}
+
+.regStart__text {
+  font-size: 2.5em;
+}
+
+.regStart__button {
+  background-color: #f08b02;
+  border: none;
+  color: white;
+  height: 8vh;
+  width: 20vw;
+  font-size: 1.5em;
+}
+
+.regStart__button:hover {
+  cursor: pointer;
+  background-color: #e89420;
+}

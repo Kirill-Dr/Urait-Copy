@@ -1,0 +1,87 @@
+.course__header__container {
+  background-image: url("../../images/rpd-bg.jpg");
+  background-position: center;
+  height: 70vh;
+}
+
+.course__main__container {
+  width: 85vw;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.course__bread__container {
+  font-size: 1.05em;
+  color: #535353;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 12vw;
+  font-weight: bolder;
+}
+
+.bread__link {
+  text-decoration: none;
+  color: #535353;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.course__bread__container img {
+  padding-top: 2px;
+}
+
+.course__title__container {
+  margin-top: 30px;
+  font-size: 3.5em;
+  font-weight: bolder;
+}
+
+.course__description__container {
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+
+.without__text {
+  font-weight: bolder;
+  font-size: 1.15em;
+}
+
+.course__button__container {
+  margin-top: 35px;
+  width: 35vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button__courses {
+  border: none;
+  background-color: #f08b01;
+  border-radius: 5px;
+  height: 5vh;
+  color: white;
+  font-weight: bolder;
+  width: 15vw;
+
+  &:hover {
+    background-color: #fbb03c;
+    cursor: pointer;
+  }
+}
+
+.button__courses_2 {
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  height: 5vh;
+  color: #1c53a7;
+  font-weight: bolder;
+  width: 17vw;
+
+  &:hover {
+    color: #6278a0;
+    cursor: pointer;
+  }
+}

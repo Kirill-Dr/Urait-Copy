@@ -1,0 +1,54 @@
+.modal__teachers {
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+  background-color: white;
+  border-top: 1px solid black;
+  height: 70vh;
+  width: 100vw;
+  cursor: default;
+  box-shadow: 0 3px 7px rgba(93, 93, 93, 0.51);
+}
+
+.modal__container {
+  width: 85vw;
+  margin: 0 auto;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.modal__blocks {
+  padding: 50px 0;
+  width: 20vw;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modal__title {
+  color: #99999a;
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.modal__links {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__link {
+  text-decoration: none;
+  width: max-content;
+  color: black;
+  margin-bottom: 20px;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.modal__link:hover {
+  color: #f08b01;
+  cursor: pointer;
+}
